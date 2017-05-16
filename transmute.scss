@@ -1,0 +1,86 @@
+/* General */
+
+body {
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Colors */
+
+$blue: #203040;
+$blue--dark: #0f161e;
+
+
+/* Components */
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    white-space: nowrap;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+    border: none !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.btn:hover {
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+}
+
+.btn--no-transform:hover {
+  transform: none;
+}
+
+
+/* Helpers */
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-blue-dark {
+  background: $blue--dark
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Padding */
+
+.p15 {
+  padding: 15px;
+}
+
+.p15-t {
+  padding-top: 15px; 
+}
+
+.p15-r {
+  padding-right: 15px; 
+}
+
+.p15-b {
+  padding-bottom: 15px; 
+}
+
+.p15-l {
+  padding-left: 15px; 
+}
+
+/* Demo */
+
+.color-swatch {
+  
+}
